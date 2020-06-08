@@ -1,16 +1,27 @@
-import PropTypes from "prop-types"
+import PropTypes from 'prop-types'
+import Link from 'next/link'
 
 const AppLayout = ({ children }) => {
-    return (
-        <div>
-            <div>Common Menu</div>
-            <div>{children}</div>
-        </div>
-    )
+  return (
+    <div>
+      <div>
+        <Link href="/">
+          <a>Nordbird</a>
+        </Link>
+        <Link href="/profile">
+          <a>Profile</a>
+        </Link>
+        <Link href="/signup">
+          <a>Signup</a>
+        </Link>
+      </div>
+      {children}
+    </div>
+  )
 }
 
 AppLayout.prototype = {
-    children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
 }
 
 export default AppLayout

@@ -1,9 +1,7 @@
-import AppLayout from "../components/AppLayout"
+import AppLayout from '../components/AppLayout'
 
 const Signup = () => {
-    return (
-        <AppLayout>Signup</AppLayout>
-    )
+  return <AppLayout>Signup</AppLayout>
 }
 
 export default Signup

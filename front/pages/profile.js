@@ -1,9 +1,7 @@
-import AppLayout from "../components/AppLayout";
+import AppLayout from '../components/AppLayout'
 
 const Profile = () => {
-    return (
-        <AppLayout>Profile</AppLayout>
-    )
+  return <AppLayout>Profile</AppLayout>
 }
 
-export default Profile;
+export default Profile
