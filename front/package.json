@@ -10,10 +10,13 @@
   "author": "Geonwoo Jeong",
   "license": "ISC",
   "dependencies": {
+    "@ant-design/icons": "^4.2.1",
+    "antd": "^4.3.3",
     "next": "^9.4.4",
     "proptypes": "^1.1.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.1"
   },
   "devDependencies": {
     "eslint": "^7.2.0",

@@ -1,7 +1,14 @@
 import AppLayout from '../components/AppLayout'
 
 const Signup = () => {
-  return <AppLayout>Signup</AppLayout>
+  return (
+    <>
+      <Head>
+        <title>Sign Up | Nodebird</title>
+      </Head>
+      <AppLayout>Signup</AppLayout>
+    </>
+  )
 }
 
 export default Signup
