@@ -1,5 +1,5 @@
-import AppLayout from '../components/AppLayout'
-import Head from 'next/head'
+import AppLayout from "../components/AppLayout";
+import Head from "next/head";
 
 const Profile = () => {
   return (
@@ -9,7 +9,7 @@ const Profile = () => {
       </Head>
       <AppLayout>Profile</AppLayout>
     </>
-  )
-}
+  );
+};
 
-export default Profile
+export default Profile;

@@ -1,4 +1,5 @@
-import AppLayout from '../components/AppLayout'
+import Head from "next/head";
+import AppLayout from "../components/AppLayout";
 
 const Signup = () => {
   return (
@@ -8,7 +9,7 @@ const Signup = () => {
       </Head>
       <AppLayout>Signup</AppLayout>
     </>
-  )
-}
+  );
+};
 
-export default Signup
+export default Signup;

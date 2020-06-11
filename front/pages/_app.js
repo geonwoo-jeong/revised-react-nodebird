@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import PropTypes from 'prop-types'
-import 'antd/dist/antd.css'
+import Head from "next/head";
+import PropTypes from "prop-types";
+import "antd/dist/antd.css";
 
 const App = ({ Component }) => {
   return (
@@ -11,11 +11,11 @@ const App = ({ Component }) => {
       </Head>
       <Component />
     </>
-  )
-}
+  );
+};
 
 App.propTypes = {
   Component: PropTypes.elementType.isRequired,
-}
+};
 
-export default App
+export default App;
