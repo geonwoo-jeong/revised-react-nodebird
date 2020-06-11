@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Menu, Input, Row, Col } from "antd";
 import { useState } from "react";
 import UserProfile from "./UserProfile";
-import LoginForm from "./LoginForm";
+import LoginForm from "./Form/LoginForm";
 import styled from "styled-components";
 
 const SearchInput = styled(Input.Search)`
